@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed; /* لجعل الشريط ثابتًا */
+    top: 0;
+    left: 0;
+    width: 100%; /* يغطي العرض بالكامل */
+    background-color: #001f3d; /* لون الخلفية */
+    padding: 10px 0;
+    z-index: 1000; /* لجعل الشريط دائمًا فوق كل العناصر */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* إضافة ظل */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center; /* العناصر في الوسط */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none; /* إزالة الخط السفلي */
+    color: white; /* لون النص */
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: #001f3d;
+}
+
+
+.navbar ul li a.active {
+    background-color: white;
+    color: #001f3d;
+}
+
+h1{
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic;  
+    text-align: center;
+    color:#001f3d;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+i{
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic;  
+    text-align: center;
+    color:#001f3d;
+    font-size: 50px;  
+}
+.he{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h2{
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic;  
+    text-align: center;
+    margin-top: 100px;  /* يمكن زيادة القيمة حسب الحاجة */
+    padding-top: 10px;
+    color:#001f3d;
+    font-size: 35px;
+}
+.s {
+    background-color: rgb(218, 218, 255); 
+    border: 2px #001f3d solid;
+    display: flex; /* تنسيق أفقي */
+    justify-content: space-around; /* توزيع العناصر بشكل متساوٍ */
+    align-items: center; /* محاذاة العناصر عموديًا */
+    padding: 20px; /* إضافة مسافة داخلية لتوفير مظهر جيد */
+}
+.im{
+    margin-left: 60px;
+}
+
+.im img {
+    justify-content: center;
+   margin-left: 200px;
+   margin-top: 20px;
+    align-items: center;
+    border-radius: 15px; /* إذا كنت تريد الزوايا مستديرة قليلاً */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* إضافة ظل للصورة */
+}
+.im p{
+    font-size: 30px;
+    color:#001f3d;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic; 
+}
+.im address{
+    font-size: 30px;
+    color:rgb(118, 118, 118);
+    margin-top: 20px;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic; 
+}
+.first {
+    margin-right: 10px;
+    background-color: rgb(218, 218, 255);
+  gap:20px;
+  
+    display: flex;
+    flex-direction: column; /* جعل العناصر تتجه عمودياً */
+    justify-content: center;
+    align-items: center;
+   
+}
+button{
+    width:300px;
+    height: 200px;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic; 
+    font-size: 30px;
+    color: #001f3d;
+    border-color: #001f3d 2px;
+    background-color: white;
+    border-radius: 15px; /* زوايا مستديرة */
+    cursor: pointer;
+   
+}
+button:hover {
+    background-color: rgba(0, 31, 61, 0.2); /* خلفية شفافة عند التمرير */
+    color: #001f3d; /* الحفاظ على النص بلونه الأصلي */
+    transform: scale(1.05); /* تكبير الزر قليلاً */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+a {
+    color: #001f3d;
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+}
+.main{
+    margin-top: 100px;
+    border:2px black solid;
+    background-color: rgb(218, 218, 255);
+    justify-content: center;
+    align-items: center;
+   
+}
+.main2{
+    margin-top: 100px;
+    background-color: rgb(218, 218, 255);
+    border:2px black solid;
+}
+.main3{
+    margin-top: 100px;
+    background-color: rgb(218, 218, 255);
+    border:2px black solid;
+    
+}
+
+.users  {
+  
+    width:350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color:  white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* إضافة ظل */
+    margin: 20px 0;
+    text-align: center;
+    color:#001f3d;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic; 
+    font-size: 15px;
+    border-bottom: #001f3d solid  10px;
+    border-left: #001f3d solid  10px;
+}
+.users p{
+    margin-top: 30px;
+}
+.comp p{
+    margin-top: 60px;
+}
+
+.Ad  {
+  
+    width:350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* إضافة ظل */
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: #001f3d solid  10px;
+    border-left: #001f3d solid  10px;
+    color:#001f3d;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic; 
+    font-size: 15px;
+}
+.Ad p{
+    margin-top: 40px;
+}
+.comp  {
+  
+    width:420px;
+    height: 420px;
+    border-radius: 100%;
+    background-color:  white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* إضافة ظل */
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: #001f3d solid  10px;
+    border-left: #001f3d solid  10px;
+    color:#001f3d;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-style: italic; 
+    font-size: 15px;
+}
+
